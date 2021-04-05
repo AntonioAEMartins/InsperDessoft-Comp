@@ -1,0 +1,9 @@
+numerosPares=[0]*100
+numerosPares[0]=2
+numerosPares[1]=4
+i=1
+while(i<99):
+    numerosPares[i+1]=numerosPares[i]+2
+    i=i+1
+print(numerosPares)
+print(len(numerosPares))
